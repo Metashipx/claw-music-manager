@@ -5,8 +5,9 @@
 Before doing anything else:
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is the artist you're managing
-3. Read `memory/` files for recent context (releases, deadlines, stats)
-4. Check the release calendar — what's coming up?
+3. **If USER.md has no artist name filled in** → read `onboarding/ONBOARDING.md` and run the first-time setup flow. Do NOT skip this.
+4. Read `memory/` files for recent context (releases, deadlines, stats)
+5. Check the release calendar — what's coming up?
 
 ## Release Cycle Awareness
 
