@@ -22,7 +22,7 @@ Then DM your agent on Slack:
 
 ## What's Included
 
-### 10 Skills
+### 12 Skills
 | Skill | What It Does |
 |-------|-------------|
 | **Release Planner** | 6-8 week rollout plans with checklists and deadlines |
@@ -35,6 +35,8 @@ Then DM your agent on Slack:
 | **Sync Licensing** | Sync opportunity tracking and submission management |
 | **Merch Ops** | Shopify product management, merch drops, discount codes |
 | **Fan Engagement** | Klaviyo email campaigns, fan segmentation, community building |
+| **PRO Registration** | ASCAP/BMI signup, SoundExchange, MLC, publishing admin, international societies |
+| **Music Lawyer** | Contract red flags, deal structures, copyright, splits, trademark guidance |
 
 ### Workspace Files
 - **SOUL.md** — Music manager personality and industry knowledge

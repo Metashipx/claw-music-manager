@@ -1,6 +1,6 @@
 ---
 name: claw-music-manager
-description: "AI music manager for independent artists. Release planning, distribution, royalty tracking, social scheduling, playlist pitching, press kits, sync licensing, merch ops, and fan engagement — all through Slack. Your manager that never sleeps."
+description: "AI music manager for independent artists. Release planning, distribution, royalty tracking, social scheduling, playlist pitching, press kits, sync licensing, merch ops, fan engagement, PRO/royalty agency registration, and music law guidance — all through Slack. Your manager that never sleeps."
 metadata:
   {
     "openclaw":
@@ -11,7 +11,7 @@ metadata:
         "author": "Movemint Holdings",
         "license": "MIT",
         "requires": { "bins": ["node"] },
-        "tags": ["music", "artist", "manager", "release", "distribution", "royalties", "social-media", "marketing"],
+        "tags": ["music", "artist", "manager", "release", "distribution", "royalties", "social-media", "marketing", "legal", "ascap", "bmi", "publishing", "copyright"],
       },
   }
 ---
@@ -52,6 +52,8 @@ Then restart your OpenClaw gateway. The agent will load the music manager person
 8. **Sync Licensing** — Track sync opportunities and manage submissions
 9. **Merch Ops** — Shopify store management for artist merchandise
 10. **Fan Engagement** — Email campaigns, fan segmentation, direct engagement
+11. **PRO Registration** — ASCAP/BMI signup, SoundExchange, MLC, publishing admin, international collection societies
+12. **Music Lawyer** — Contract red flags, deal structures, copyright registration, splits agreements, trademark guidance
 
 ## Who This Is For
 
