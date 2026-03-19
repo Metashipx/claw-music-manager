@@ -88,6 +88,14 @@ _Filled in during intake. Update anytime by saying "update my info."_
 - **Chosen archetype:**
 - **Customizations:**
 
+## Voice Setup
+- **Mode:** A (Voice Messages) / B (Phone Calls) / C (Text Only) / D (Local Voice)
+- **TTS provider:** ElevenLabs / Sherpa-ONNX / None
+- **STT provider:** OpenAI Whisper API / Local Whisper / None
+- **Voice personality:** Deep & Smooth / Energetic / Calm & Wise / Young & Fresh / British / Custom
+- **ElevenLabs voice ID:**
+- **Phone number (if Option B):**
+
 ## Gaps to Address
 _Items identified during intake that need action:_
 

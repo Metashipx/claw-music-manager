@@ -303,13 +303,148 @@ their current situation. Make it feel real.]
 
 ---
 
+## SECTION 11: Voice Setup — How Do You Want to Talk to Me?
+
+```
+One more thing — how do you want to communicate with me?
+
+I can work in text only, or we can set up voice so you can
+talk to me like you'd talk to a real manager. Here are your options:
+
+🎙️ OPTION A: Voice Messages (recommended)
+You send me voice notes in Slack/Discord → I transcribe and understand them.
+I can reply with voice too — so it feels like a real conversation.
+Uses: ElevenLabs for my voice ($5/mo) + OpenAI Whisper to understand you (~$0.10/day)
+Best for: Quick updates from the studio, in the car, or when typing is annoying.
+
+📞 OPTION B: Phone Calls
+I get a real phone number. You call me, we talk in real-time.
+Like calling your manager, except I pick up every time.
+Uses: Twilio ($0.02/min) + ElevenLabs + Whisper
+Best for: Artists who want the full "call my manager" experience.
+Setup takes a bit longer.
+
+💬 OPTION C: Text Only (free)
+We stick to typing. No voice. Zero cost.
+Best for: Artists who prefer text, or want to keep costs at zero.
+
+🔇 OPTION D: Voice but Free (local processing)
+Voice messages work, but using free local models instead of cloud.
+My voice won't sound as polished, but it's completely free and private.
+Uses: Sherpa-ONNX for my voice + local Whisper for understanding you.
+Needs ~1GB of model files downloaded to your machine.
+Best for: Privacy-focused artists, or anyone avoiding monthly costs.
+
+Which sounds right? You can always change this later.
+```
+
+Wait for response. Based on their choice:
+
+### If Option A (Voice Messages — Cloud):
+```
+Great choice. Here's what I need:
+
+1. An ElevenLabs API key ($5/mo gets you 30,000 characters — that's
+   roughly 100 voice replies from me per month):
+   → Sign up at elevenlabs.io → Profile → API Key
+
+2. An OpenAI API key (so I can understand your voice messages):
+   → Sign up at platform.openai.com → API Keys → Create
+
+Drop them here when you have them, or say "skip" and we'll set this up later.
+```
+
+After receiving keys:
+- Save `ELEVENLABS_API_KEY` to `.env`
+- Save `OPENAI_API_KEY` to `.env`
+- Install `sag` if not present: `brew install steipete/tap/sag`
+- Test with a short TTS: `sag "Testing, one two. Your music manager is live."`
+- Update USER.md voice config section
+- Confirm: "Voice is set up. Send me a voice note anytime — I'll understand it and can reply the same way."
+
+### If Option B (Phone Calls):
+```
+Love the ambition. Phone calls need a Twilio account:
+
+1. Sign up at twilio.com (free trial includes $15 credit)
+2. Buy a phone number ($1/month)
+3. Get your Account SID and Auth Token from the Twilio console
+4. Also need ElevenLabs + OpenAI keys (same as Option A)
+
+This is a bit more involved — want to set it up now or come back to it?
+```
+
+If they want to proceed:
+- Walk through Twilio setup
+- Save credentials to `.env`
+- Enable the voice-call plugin in `openclaw.json`
+- Test with a call
+- Save the phone number in USER.md
+
+### If Option C (Text Only):
+```
+Clean and simple. We'll stick to text. If you ever want to add
+voice later, just tell me "set up voice" and I'll walk you through it.
+```
+
+Save choice to USER.md. Move on.
+
+### If Option D (Local/Free Voice):
+```
+Smart — zero cost and fully private. I need to download some files:
+
+1. Sherpa-ONNX runtime (~200MB) — for my voice
+2. A voice model (~100MB) — how I'll sound
+3. Whisper model (~500MB) — so I can understand your voice notes
+
+Want me to download these now? Takes about 5 minutes on a decent connection.
+```
+
+If yes:
+- Run sherpa-onnx-tts skill install sequence
+- Run local whisper install (`pip install openai-whisper` or `brew install whisper-cpp`)
+- Test TTS with a short phrase
+- Test STT with a sample audio
+- Confirm: "Voice is live — fully local, no cloud, no cost."
+
+---
+
+## SECTION 12: Voice Personality (if voice enabled)
+
+Only if they chose Option A, B, or D:
+
+```
+Since we're doing voice — what should I sound like?
+
+Pick a voice vibe:
+
+🎵 Deep & Smooth — Barry White meets your cool uncle
+🔥 Energetic & Sharp — morning radio host energy
+🎭 Calm & Wise — late night jazz DJ, measured and warm
+😎 Young & Fresh — sounds like someone in the scene, not above it
+🌍 British & Crisp — UK manager energy, proper but not stiff
+🎪 Custom — describe what you want and I'll find the closest match
+
+(This applies to ElevenLabs voices. If you chose local/free,
+I'll pick the best available model for your vibe.)
+```
+
+Wait for response. Configure the voice:
+- For ElevenLabs: select from their voice library or clone a voice
+- For Sherpa-ONNX: select the closest available local model
+- Save voice preference to USER.md
+- Test: speak one sentence in the chosen voice as confirmation
+
+---
+
 ## After Intake
 
 1. Save everything to `workspace/USER.md` (full structured profile)
 2. Update `workspace/SOUL.md` with chosen personality
-3. Create `memory/intake-complete.md` with date and gap summary
-4. Immediately offer to tackle the #1 urgent gap
-5. Create a 30-day action plan based on their goals and gaps
+3. Configure voice settings if enabled (save keys, install tools, test)
+4. Create `memory/intake-complete.md` with date and gap summary
+5. Immediately offer to tackle the #1 urgent gap
+6. Create a 30-day action plan based on their goals and gaps
 
 ## Re-Intake
 
@@ -318,3 +453,4 @@ If the artist says "update my info" or "redo intake":
 - Ask what section they want to update
 - Update only that section in USER.md
 - If they say "change personality" → jump to Section 10
+- If they say "change voice" → jump to Section 11/12
