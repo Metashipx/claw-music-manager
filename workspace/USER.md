@@ -1,42 +1,98 @@
-# USER.md — About the Artist
+# USER.md — Artist Profile
 
-_Fill this in when you set up your music manager._
+_Filled in during intake. Update anytime by saying "update my info."_
 
-## Artist Info
+## Identity
 - **Artist/Band Name:**
-- **Real Name:**
-- **Genre(s):**
+- **Legal Name:**
 - **Location:**
-- **Label:** Independent / Signed to:
+- **Genre(s):**
+- **Solo / Band:** (if band, # of members)
 
-## Platforms
-- **Spotify**: [link]
-- **Apple Music**: [link]
-- **YouTube**: [link]
-- **Instagram**: [handle]
-- **TikTok**: [handle]
-- **Twitter/X**: [handle]
-- **Website**: [link]
-
-## Distribution
-- **Distributor:** DistroKid / TuneCore / CD Baby / Other
-- **ISRC Prefix:** (if applicable)
+## Contact & Team
+- **Email (business):**
+- **Phone:**
+- **Manager:**
+- **Booking Agent:**
+- **Entertainment Lawyer:**
+- **Publicist:**
 
 ## Business
-- **Publishing:** Self-published / Publisher:
-- **PRO:** ASCAP / BMI / SESAC / PRS / Other
-- **IPI Number:**
-- **Manager:** (human, if any)
-- **Attorney:** (if any)
+- **Entity:** Sole proprietor / LLC / S-Corp / Not set up
+- **EIN:**
+- **Tax status:**
 
-## Current Status
-- **Followers:** IG: / TikTok: / Spotify:
-- **Monthly Listeners:**
-- **Latest Release:**
-- **Next Planned Release:**
+## Music & Catalog
+- **Total released tracks:**
+- **Latest release:** (title, date)
+- **Next planned release:** (title, timeline)
+- **Unreleased tracks ready:**
+- **Producer(s):**
+- **Co-writers:**
+- **Instrumentals/stems available:**
+- **DAW:**
+
+## Distribution & Royalties
+- **Distributor:**
+- **PRO:** ASCAP / BMI / SESAC
+- **IPI Number:**
+- **SoundExchange:** Yes / No
+- **The MLC:** Yes / No
+- **Publishing admin:** Songtrust / CD Baby Pro / None
+- **Estimated monthly streaming income:**
+
+## Platforms
+- **Spotify:**
+- **Apple Music:**
+- **YouTube:**
+- **Instagram:** @handle (followers)
+- **TikTok:** @handle (followers)
+- **Twitter/X:** @handle
+- **SoundCloud:**
+- **Bandcamp:**
+- **Website:**
+- **Smart link (Linkfire/feature.fm):**
+- **EPK:**
+
+## Visual Identity
+- **Logo:** (file location)
+- **Press photos:** (photographer, file location)
+- **Brand colors / style guide:**
+- **Artwork designer:**
+- **Bio written:** Yes (short + long) / Needs writing
+
+## Live Performance
+- **Performs live:** Yes / No
+- **Frequency:**
+- **Typical draw:**
+- **Biggest show:**
+- **Booking agent:**
+- **Tech rider:** Yes / No
+- **Stage plot:** Yes / No
+- **Live video:** (link)
+- **Target markets/cities:**
+
+## Revenue
+- **Revenue streams:** Streaming / Live / Merch / Sync / Teaching / Beats / Brand deals
+- **Monthly music income (approx):**
+- **Merch store:**
 
 ## Goals
-_(What does the artist want to achieve in the next 6-12 months?)_
+- **6-month goal 1:**
+- **6-month goal 2:**
+- **6-month goal 3:**
+- **12-month dream scenario:**
+- **The ONE thing that would change everything:**
 
-## Notes
-_(Creative preferences, communication style, do's and don'ts)_
+## Manager Personality
+- **Chosen archetype:**
+- **Customizations:**
+
+## Gaps to Address
+_Items identified during intake that need action:_
+
+### 🔴 Urgent
+
+### 🟡 Important
+
+### 🟢 Nice to Have
